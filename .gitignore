@@ -1,0 +1,17 @@
+node_modules
+npm-debug.log*
+lerna-debug.log*
+package-lock.json
+yarn.lock
+.eslintcache
+.DS_Store
+.cache
+.vscode
+.npmrc
+
+*.bak
+*.tem
+*.temp
+#.swp
+*.*~
+~*.*

@@ -1,0 +1,47 @@
+{
+  "name": "chmod-cli",
+  "version": "1.0.0",
+  "description": "A simple command line tool for changing file permissions.",
+  "type": "module",
+  "license": "MIT",
+  "main": "./chmod.js",
+  "bin": {
+    "chmod": "./cli.js",
+    "chmod-cli": "./cli.js"
+  },
+  "author": "kenny wong <wowohoo@qq.com>",
+  "homepage": "http://jaywcjlove.github.io/chmod-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/chmod-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "cli.js",
+    "chmod.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "chmod",
+    "chmod-cli",
+    "permissions",
+    "file",
+    "directory",
+    "string",
+    "unix",
+    "rwx",
+    "read",
+    "write",
+    "execute",
+    "linux"
+  ],
+  "engines": {
+    "node": ">=14.16"
+  },
+  "dependencies": {
+    "meow": "^11.0.0"
+  }
+}
