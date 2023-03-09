@@ -1,5 +1,11 @@
 import fs from 'node:fs';
 
+/**
+ * Changing file permissions
+ * @param {import('fs').PathLike} path 
+ * @param {string|number} mode 
+ * @param {(err: Error | null) => void} callback 
+ */
 export default function chmod(path, mode, callback) {
   // 检查参数
   if (typeof path !== 'string') {
