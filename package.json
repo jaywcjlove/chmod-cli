@@ -7,7 +7,6 @@
 	"exports": "./chmod.js",
 	"types": "./index.d.ts",
   "bin": {
-    "chmod": "./cli.js",
     "chmod-cli": "./cli.js"
   },
   "author": "kenny wong <wowohoo@qq.com>",
