@@ -19,11 +19,11 @@ $ npm install --global chmod-cli
 ## Usage
 
 ```bash
-$ chmod --help
+$ chmod-cli --help
 
   A simple Node.js module for changing file permissions.
 
-  Usage: $ chmod <path> …
+  Usage: $ chmod-cli <path> …
   
   Options:
     --mode, -m    The new permissions for the file or directory.
@@ -32,8 +32,8 @@ $ chmod --help
   
   Examples:
   
-    $ chmod test.js xxx.js -m 777
-    $ chmod test.js -m 777
+    $ chmod-cli test.js xxx.js -m 777
+    $ chmod-cli test.js -m 777
     $ chmod-cli test.js -m 777
 
 ```

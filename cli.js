@@ -3,10 +3,10 @@ import meow from 'meow';
 import chmod from './chmod.js'
 
 const cli = meow(`
-  \x1b[37;1mUsage:\x1b[0m $\x1b[32;1m chmod\x1b[0m <path> …
+  \x1b[37;1mUsage:\x1b[0m $\x1b[32;1m chmod-cli\x1b[0m <path> …
 
   \x1b[37;1mOptions:\x1b[0m 
-    
+
     --version, -v   Show version number
     --help, -h      Displays help information.
     --mode, -m      The new permissions for the file or directory.
@@ -15,9 +15,9 @@ const cli = meow(`
 
   \x1b[37;1mExamples:\x1b[0m
 
-    $\x1b[34;1m chmod\x1b[0m test.js xxx.js -m 777
-    $\x1b[34;1m chmod\x1b[0m test.js -m 777
-    $\x1b[34;1m chmod-cli\x1b[0m test.js -m 777
+    $\x1b[34;1m chmod-cli\x1b[0m test.js xxx.js -m 0o777
+    $\x1b[34;1m chmod-cli\x1b[0m test.js -m 0o777
+    $\x1b[34;1m chmod-cli\x1b[0m test.js -m 0o777
 
 `, {
   importMeta: import.meta,
