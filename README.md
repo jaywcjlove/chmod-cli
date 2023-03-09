@@ -57,6 +57,23 @@ chmod('./test.txt', '666', (err) => {
 });
 ```
 
+## File Permissions Explanation
+
+In the numeric notation of file permissions, each digit represents a file permission group (owner permission, user group permission, other user permission). In this notation, the numeric value for each permission is:
+
+- Read permission: `4`
+- Write permission: `2`
+- Execute permission: `1`
+
+Therefore, `777` means:
+
+- Owner permission: **Read** (4), **Write** (2), **Execute** (1) = `4+2+1 = 7`
+- User group permission: **Read** (4), **Write** (2), **Execute** (1) = `4+2+1 = 7`
+- Other user permission: **Read** (4), **Write** (2), **Execute** (1) = `4+2+1 = 7`
+
+In total, this makes `777`, which means that the file's owner, members of the same user group, and all other users can read, write, and execute that file. This permission configuration is very open and should be used with caution.
+
+
 ## License
 
 This package is licensed under the MIT License.
