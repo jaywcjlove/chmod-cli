@@ -1,6 +1,11 @@
 chmod-cli
 ===
 
+[![CI](https://github.com/jaywcjlove/chmod-cli/actions/workflows/main.yml/badge.svg)](https://github.com/jaywcjlove/chmod-cli/actions/workflows/main.yml)
+[![NPM Downloads](https://img.shields.io/npm/dm/chmod-cli.svg?style=flat)](https://www.npmjs.com/package/chmod-cli)
+[![](https://jaywcjlove.github.io/sb/ico/npm.svg)](https://www.npmjs.com/package/chmod-cli) 
+
+
 A simple command line tool for changing file permissions
 
 ## Installation
