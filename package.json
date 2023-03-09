@@ -1,10 +1,11 @@
 {
   "name": "chmod-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple command line tool for changing file permissions.",
-  "type": "module",
   "license": "MIT",
-  "main": "./chmod.js",
+  "type": "module",
+	"exports": "./chmod.js",
+	"types": "./index.d.ts",
   "bin": {
     "chmod": "./cli.js",
     "chmod-cli": "./cli.js"
