@@ -16,7 +16,8 @@
     "url": "https://github.com/jaywcjlove/chmod-cli.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
   },
   "files": [
     "cli.js",
@@ -38,10 +39,19 @@
     "execute",
     "linux"
   ],
+  "jest": {
+    "testMatch": [ "**/?(*.)+(spec|test).[tj]s?(x)"],
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/?!(.*)"
+    ]
+  },
   "engines": {
     "node": ">=14.16"
   },
   "dependencies": {
     "meow": "^11.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
