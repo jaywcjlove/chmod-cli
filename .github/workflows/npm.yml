@@ -16,8 +16,15 @@ jobs:
 
       - run: npm install
       - run: mkdir -p build
-      - run: npm i markdown-to-html-cli -g
-      - run: markdown-to-html --output build/index.html
+      # - run: npm i markdown-to-html-cli -g
+      # - run: markdown-to-html --output build/index.html
+
+      - name: Converts Markdown to HTML
+        uses: jaywcjlove/markdown-to-html-cli@main
+        with:
+          source: README.md
+          output: build/index.html
+          github-corners: https://github.com/jaywcjlove/chmod-cli
 
       - run: tree -I 'node_modules|.git|.github|src' -L 3 -a
 
