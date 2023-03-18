@@ -1,5 +1,7 @@
+<!--idoc:ignore:start-->
 chmod-cli
 ===
+<!--idoc:ignore:end-->
 
 [![CI](https://github.com/jaywcjlove/chmod-cli/actions/workflows/main.yml/badge.svg)](https://github.com/jaywcjlove/chmod-cli/actions/workflows/main.yml)
 [![NPM Downloads](https://img.shields.io/npm/dm/chmod-cli.svg?style=flat)](https://www.npmjs.com/package/chmod-cli)

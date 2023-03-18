@@ -4,8 +4,8 @@
   "description": "A simple command line tool for changing file permissions.",
   "license": "MIT",
   "type": "module",
-	"exports": "./chmod.js",
-	"types": "./index.d.ts",
+  "exports": "./chmod.js",
+  "types": "./index.d.ts",
   "bin": {
     "chmod-cli": "./cli.js"
   },
@@ -16,6 +16,7 @@
     "url": "https://github.com/jaywcjlove/chmod-cli.git"
   },
   "scripts": {
+    "build": "idoc",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
   },
@@ -40,7 +41,9 @@
     "linux"
   ],
   "jest": {
-    "testMatch": [ "**/?(*.)+(spec|test).[tj]s?(x)"],
+    "testMatch": [
+      "**/?(*.)+(spec|test).[tj]s?(x)"
+    ],
     "transformIgnorePatterns": [
       "<rootDir>/node_modules/?!(.*)"
     ]
@@ -52,6 +55,7 @@
     "meow": "^11.0.0"
   },
   "devDependencies": {
+    "idoc": "^1.21.15",
     "jest": "^29.5.0"
   }
 }
