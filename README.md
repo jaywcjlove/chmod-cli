@@ -9,7 +9,7 @@ chmod-cli
 [![NPM version](https://img.shields.io/npm/v/chmod-cli.svg?style=flat)](https://npmjs.org/package/chmod-cli)
 
 
-A simple command line tool for changing file permissions
+A simple command line tool for changing file permissions. The [UNIX command](https://en.wikipedia.org/wiki/Chmod) `chmod 777 filename` for node.
 
 ## Installation
 
