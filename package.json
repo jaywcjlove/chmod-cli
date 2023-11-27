@@ -11,6 +11,7 @@
   },
   "author": "kenny wong <wowohoo@qq.com>",
   "homepage": "http://jaywcjlove.github.io/chmod-cli",
+  "funding": "https://jaywcjlove.github.io/#/sponsor",
   "repository": {
     "type": "git",
     "url": "https://github.com/jaywcjlove/chmod-cli.git"
