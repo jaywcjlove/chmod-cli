@@ -50,10 +50,10 @@
     ]
   },
   "engines": {
-    "node": ">=14.16"
+		"node": ">=16.10"
   },
   "dependencies": {
-    "meow": "^11.0.0"
+    "meow": "^12.0.0"
   },
   "devDependencies": {
     "idoc": "^1.21.15",

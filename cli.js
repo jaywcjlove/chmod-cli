@@ -24,7 +24,7 @@ const cli = meow(`
   flags: {
     mode: {
       type: 'number',
-      alias: 'm',
+      shortFlag: 'm',
     },
   },
 });
