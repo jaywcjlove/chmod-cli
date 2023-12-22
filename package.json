@@ -54,7 +54,7 @@
     "node": ">=16.10"
   },
   "dependencies": {
-    "meow": "^12.0.0"
+    "meow": "^13.0.0"
   },
   "devDependencies": {
     "idoc": "^1.21.15",
