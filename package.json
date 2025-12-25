@@ -1,6 +1,6 @@
 {
   "name": "chmod-cli",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A simple command line tool for changing file permissions.",
   "license": "MIT",
   "type": "module",
